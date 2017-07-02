@@ -2,7 +2,6 @@ package de.dodori.splatoonPlugin;
 
 import java.util.ArrayList;
 
-import org.bukkit.DyeColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 

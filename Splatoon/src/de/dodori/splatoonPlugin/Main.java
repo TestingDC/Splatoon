@@ -36,13 +36,4 @@ public class Main extends JavaPlugin
   {
     getLogger().info(this.pluginName + " v. " + this.version + " disabled.");
   }
-
-  @EventHandler
-  public void onJoin(PlayerJoinEvent event)
-  {
-    Player p = event.getPlayer();
-    event.setJoinMessage(null);
-    p.sendMessage("Welcome back, " + p.getName() + ".");
-    Bukkit.broadcastMessage(p.getName() + " has joined the server!");
-  }
 }
