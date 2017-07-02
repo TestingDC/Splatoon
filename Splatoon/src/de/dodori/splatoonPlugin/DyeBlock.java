@@ -17,6 +17,7 @@ import org.bukkit.material.Dye;
 public class DyeBlock
   implements Listener
 {
+	@SuppressWarnings( "deprecation" )
   @EventHandler
   public void onPlayerInteractEvent(PlayerInteractEvent e)
   {

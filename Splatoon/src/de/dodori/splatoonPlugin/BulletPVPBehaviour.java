@@ -22,6 +22,9 @@ public class BulletPVPBehaviour
       {
         Player player = (Player)hent;
         player.setCollidable(false);
+      }else
+      {
+    	  
       }
     }
   }

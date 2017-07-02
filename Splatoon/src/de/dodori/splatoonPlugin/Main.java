@@ -15,7 +15,7 @@ public class Main extends JavaPlugin
 {
   String pluginName = "splatoonPlugin";
   String pluginCoder = "dodori";
-  double version = 1.0D;
+  double version = 1.0;
 
   public void onEnable()
   {

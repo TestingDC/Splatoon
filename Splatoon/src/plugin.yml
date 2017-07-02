@@ -1,0 +1,6 @@
+name: splatoonPlugin
+main: de.dodori.splatoonPlugin.Main
+version: 1.0
+commands:
+    test:
+        description: Command for testing.

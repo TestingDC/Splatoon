@@ -26,7 +26,7 @@ public class InkGrenade
   implements Listener
 {
   List<Player> grenadeCooldown = new ArrayList();
-
+  @SuppressWarnings( "deprecation" )
   @EventHandler
   public void onPlayerInteractEvent(PlayerInteractEvent e)
   {

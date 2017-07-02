@@ -25,8 +25,9 @@ import org.bukkit.util.Vector;
 public class InkShotgun
   implements Listener
 {
-  List<Player> inkShotgun = new ArrayList();
+  List<Player> inkShotgun = new ArrayList<Player>();
 
+  @SuppressWarnings( "deprecation" )
   @EventHandler
   public void onPlayerInteractEvent(PlayerInteractEvent e)
   {

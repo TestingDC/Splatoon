@@ -17,6 +17,7 @@ import org.bukkit.util.Vector;
 public class BulletBehaviour
   implements Listener
 {
+  @SuppressWarnings( "deprecation" )
   @EventHandler
   public void onProjectileHit(ProjectileHitEvent event)
   {

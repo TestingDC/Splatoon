@@ -18,10 +18,11 @@ import org.bukkit.potion.PotionEffectType;
 public class InkCheck
   implements Listener
 {
+	
   PotionEffect inkSpeedUp = new PotionEffect(PotionEffectType.SPEED, 2147483647, 0, false, false);
   PotionEffect inkSlowDown = new PotionEffect(PotionEffectType.SLOW, 2147483647, 3, false, false);
   PotionEffect inkNoJump = new PotionEffect(PotionEffectType.JUMP, 2147483647, -5, false, false);
-
+  @SuppressWarnings( "deprecation" )
   @EventHandler
   public void onPlayerMove(PlayerMoveEvent ev) {
     Player p = ev.getPlayer();
